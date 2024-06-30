@@ -1,0 +1,178 @@
+/* 1260px - 78.75em */
+@media screen and (max-width: 78.75em) {
+	html {
+		font-size: 56.25%;
+	}
+}
+
+/* /////////////////////////////////////// */
+/* 1140px - 71.25em */
+@media screen and (max-width: 71.25em) {
+	html {
+		font-size: 50%;
+	}
+
+	body::before {
+		width: 45rem;
+	}
+
+	.card__front {
+		margin-left: 13rem;
+		margin-bottom: 3rem;
+	}
+
+	.card__number {
+		letter-spacing: 3px;
+		margin-top: 5.5rem;
+	}
+
+	.card__back {
+		margin-left: 25rem;
+	}
+}
+
+/* /////////////////////////////////////// */
+/* 980px - 61.25em */
+@media screen and (max-width: 61.25em) {
+	html {
+		font-size: 62.5%;
+	}
+
+	body::before {
+		height: 40rem;
+		width: 100%;
+	}
+
+	.section__card {
+		grid-template-columns: 1fr;
+	}
+
+	.card__details {
+		flex-direction: column-reverse;
+		align-items: center;
+		margin: auto;
+	}
+
+	.card__front {
+		margin: -10rem 0 0 -15rem;
+		z-index: 10;
+	}
+
+	.card__back {
+		margin-left: 2.5rem;
+	}
+
+	.card__number {
+		letter-spacing: 3.5px;
+		margin-top: 6rem;
+	}
+
+	.card__form {
+		min-width: 100%;
+		padding: 0 2.4rem;
+		margin-left: 0;
+	}
+
+	.form {
+		gap: 2rem;
+	}
+
+	.form__label {
+		font-size: var(--heading-l);
+	}
+
+	.form__input {
+		min-height: 5.5rem;
+	}
+
+	.date-input {
+		width: 100%;
+	}
+
+	.cardholder-error,
+	.cardnumber-error,
+	.month-error,
+	.year-error,
+	.cvc-error {
+		font-size: 1.6rem;
+	}
+
+	/* success message */
+	.hidden {
+		min-width: 100%;
+		padding: 0 2.4rem;
+	}
+
+	.header {
+		padding: 2.5rem 0;
+	}
+}
+
+/* /////////////////////////////////////// */
+/* 780px - 48.75em */
+@media screen and (max-width: 48.75em) {
+	body::before {
+		height: 38rem;
+	}
+
+	.card__front {
+		margin-left: -10rem;
+	}
+
+	.card__back {
+		margin-left: 8rem;
+	}
+}
+
+/* /////////////////////////////////////// */
+/* 599px - 37.43em */
+@media screen and (max-width: 37.43em) {
+	html {
+		font-size: 50%;
+	}
+
+	.card__details {
+		max-width: 34.3rem;
+		min-width: 100%;
+	}
+
+	.card__front,
+	.card__back {
+		width: 100%;
+		border-radius: 8px;
+	}
+
+	.card-logo {
+		height: 5rem;
+	}
+
+	.card__number {
+		letter-spacing: 2.2px;
+		margin-bottom: 1rem;
+	}
+
+	.button {
+		font-size: 2.2rem;
+		padding: 1.5rem 3rem;
+	}
+}
+
+/* ////////////////////////////////////// */
+/* 460px - 28.75em */
+@media screen and (max-width: 28.75em) {
+	html {
+		font-size: 43.75%;
+	}
+
+	.header {
+		font-size: 3.5rem;
+	}
+}
+
+/* /////////////////////////////////////// */
+/* 395px - 24.68em */
+@media screen and (max-width: 24.68em) {
+	html {
+		font-size: 40%;
+	}
+}
